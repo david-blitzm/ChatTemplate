@@ -19,6 +19,7 @@
 		91D41CE01D753CE90026C6D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D41CDF1D753CE90026C6D1 /* ViewController.m */; };
 		91D41CE31D753D9A0026C6D1 /* BZChatMessageCellTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D41CE21D753D9A0026C6D1 /* BZChatMessageCellTemplate.m */; };
 		91D41CE51D753E0D0026C6D1 /* BZChatMessageCellTemplate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D41CE41D753E0D0026C6D1 /* BZChatMessageCellTemplate.xib */; };
+		91D41CE71D754CB80026C6D1 /* ChatTemplate.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 91D41CE61D754CB80026C6D1 /* ChatTemplate.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		91D41CE11D753D9A0026C6D1 /* BZChatMessageCellTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZChatMessageCellTemplate.h; sourceTree = "<group>"; };
 		91D41CE21D753D9A0026C6D1 /* BZChatMessageCellTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZChatMessageCellTemplate.m; sourceTree = "<group>"; };
 		91D41CE41D753E0D0026C6D1 /* BZChatMessageCellTemplate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BZChatMessageCellTemplate.xib; sourceTree = "<group>"; };
+		91D41CE61D754CB80026C6D1 /* ChatTemplate.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChatTemplate.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		91158C471D753B140094C52C = {
 			isa = PBXGroup;
 			children = (
+				91D41CE61D754CB80026C6D1 /* ChatTemplate.podspec */,
 				91158C521D753B140094C52C /* ChatTemplate */,
 				91158C6C1D753B150094C52C /* ChatTemplateTests */,
 				91158C771D753B150094C52C /* ChatTemplateUITests */,
@@ -269,6 +272,7 @@
 			files = (
 				91158C881D753BC20094C52C /* BZChatTemplateViewController.xib in Resources */,
 				91158C631D753B150094C52C /* LaunchScreen.storyboard in Resources */,
+				91D41CE71D754CB80026C6D1 /* ChatTemplate.podspec in Resources */,
 				91158C601D753B150094C52C /* Assets.xcassets in Resources */,
 				91D41CE51D753E0D0026C6D1 /* BZChatMessageCellTemplate.xib in Resources */,
 				91158C5E1D753B140094C52C /* Main.storyboard in Resources */,
