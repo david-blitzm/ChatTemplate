@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "BZChatTemplateViewController.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +22,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)gotoChatView:(id)sender {
+    [BZChatTemplateViewController pushChatViewToNavController:self.navigationController];
 }
 
 @end

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="messageCellForReceiver" rowHeight="101" id="Yqa-uC-D8I" customClass="BZChatMessageCellTemplate">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yqa-uC-D8I" id="tvj-SZ-EXi">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1JM-Si-1Xx">
+                        <rect key="frame" x="16" y="52" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="dX8-hg-Nw5"/>
+                            <constraint firstAttribute="height" constant="40" id="qGq-ru-fah"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Lorem ipsum Sit sint officia minim Lorem ipsum Sit sint officia minim Lorem ipsum Sit sint officia minim" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3d-ia-13m">
+                        <rect key="frame" x="64" y="4" width="172" height="88"/>
+                        <color key="backgroundColor" red="0.28627450980000002" green="0.84313725490000002" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="210" id="4Sb-oq-lO5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 hour ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lV3-xJ-L0y">
+                        <rect key="frame" x="244" y="41" width="60" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="o3d-ia-13m" secondAttribute="bottom" constant="8" id="3pB-cM-OAc"/>
+                    <constraint firstAttribute="bottom" secondItem="1JM-Si-1Xx" secondAttribute="bottom" constant="8" id="7xP-MC-3x8"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="lV3-xJ-L0y" secondAttribute="trailing" constant="8" id="CP9-8L-lBV"/>
+                    <constraint firstItem="o3d-ia-13m" firstAttribute="top" secondItem="tvj-SZ-EXi" secondAttribute="top" constant="4" id="CWG-xr-LfT"/>
+                    <constraint firstItem="o3d-ia-13m" firstAttribute="leading" secondItem="tvj-SZ-EXi" secondAttribute="leadingMargin" constant="56" id="Ftx-gA-7B4"/>
+                    <constraint firstItem="lV3-xJ-L0y" firstAttribute="centerY" secondItem="o3d-ia-13m" secondAttribute="centerY" id="UId-7R-IZn"/>
+                    <constraint firstItem="1JM-Si-1Xx" firstAttribute="leading" secondItem="tvj-SZ-EXi" secondAttribute="leading" constant="16" id="UUn-3K-LnQ"/>
+                    <constraint firstItem="lV3-xJ-L0y" firstAttribute="leading" secondItem="o3d-ia-13m" secondAttribute="trailing" constant="8" id="fqe-Vp-STb"/>
+                    <constraint firstItem="o3d-ia-13m" firstAttribute="leading" secondItem="1JM-Si-1Xx" secondAttribute="trailing" constant="8" id="tCD-td-E5Q"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="tCD-td-E5Q"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="messageLbl" destination="ujc-xL-YRh" id="bJC-pU-eFB"/>
+                <outlet property="senderImage" destination="6fw-LL-jd2" id="kcr-7V-jSh"/>
+                <outlet property="timeLbl" destination="LMG-k7-wa8" id="N8o-Vl-J7f"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="207.5"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="messageCellForSender" rowHeight="101" id="L2j-xr-tJy" customClass="BZChatMessageCellTemplate">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L2j-xr-tJy" id="gJt-V0-qyS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6fw-LL-jd2">
+                        <rect key="frame" x="264" y="52" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Cix-N4-tHB"/>
+                            <constraint firstAttribute="height" constant="40" id="eUQ-n9-DuZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Lorem ipsum Sit sint officia minim Lorem ipsum Sit sint officia minim Lorem ipsum Sit sint officia minim" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujc-xL-YRh">
+                        <rect key="frame" x="84" y="4" width="172" height="88"/>
+                        <color key="backgroundColor" red="0.28627450980000002" green="0.84313725490000002" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="210" id="qGu-eI-JeX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 hour ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMG-k7-wa8">
+                        <rect key="frame" x="16" y="41" width="60" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ujc-xL-YRh" firstAttribute="leading" secondItem="LMG-k7-wa8" secondAttribute="trailing" constant="8" id="7S1-4c-J7V"/>
+                    <constraint firstItem="6fw-LL-jd2" firstAttribute="leading" secondItem="ujc-xL-YRh" secondAttribute="trailing" constant="8" id="FPG-an-fnQ"/>
+                    <constraint firstItem="LMG-k7-wa8" firstAttribute="leading" secondItem="ujc-xL-YRh" secondAttribute="trailing" constant="8" id="HhQ-rO-ICZ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ujc-xL-YRh" secondAttribute="trailing" constant="56" id="Kqv-GG-KUl"/>
+                    <constraint firstItem="LMG-k7-wa8" firstAttribute="centerY" secondItem="ujc-xL-YRh" secondAttribute="centerY" id="Lkd-OI-nmj"/>
+                    <constraint firstItem="6fw-LL-jd2" firstAttribute="leading" secondItem="gJt-V0-qyS" secondAttribute="leading" constant="16" id="OGg-3m-Gp7"/>
+                    <constraint firstItem="ujc-xL-YRh" firstAttribute="top" secondItem="gJt-V0-qyS" secondAttribute="top" constant="4" id="WbZ-ee-sHb"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="LMG-k7-wa8" secondAttribute="trailing" constant="8" id="aol-0S-f3X"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="6fw-LL-jd2" secondAttribute="trailing" constant="8" id="eux-OF-4Sp"/>
+                    <constraint firstItem="ujc-xL-YRh" firstAttribute="leading" secondItem="6fw-LL-jd2" secondAttribute="trailing" constant="8" id="rFl-Y2-4YZ"/>
+                    <constraint firstItem="LMG-k7-wa8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gJt-V0-qyS" secondAttribute="leadingMargin" constant="8" id="rNk-9W-YsS"/>
+                    <constraint firstAttribute="bottom" secondItem="6fw-LL-jd2" secondAttribute="bottom" constant="8" id="vE6-E5-JP2"/>
+                    <constraint firstAttribute="bottom" secondItem="ujc-xL-YRh" secondAttribute="bottom" constant="8" id="vJB-HG-urb"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="aol-0S-f3X"/>
+                        <exclude reference="HhQ-rO-ICZ"/>
+                        <exclude reference="rFl-Y2-4YZ"/>
+                        <exclude reference="OGg-3m-Gp7"/>
+                        <exclude reference="FPG-an-fnQ"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="messageLbl" destination="ujc-xL-YRh" id="jGw-Aa-6Jr"/>
+                <outlet property="senderImage" destination="6fw-LL-jd2" id="hgg-vm-Xsy"/>
+                <outlet property="timeLbl" destination="LMG-k7-wa8" id="53u-e6-Mkd"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="368.5"/>
+        </tableViewCell>
+    </objects>
+</document>
