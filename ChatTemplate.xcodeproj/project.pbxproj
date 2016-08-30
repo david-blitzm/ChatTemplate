@@ -11,7 +11,6 @@
 		91158C581D753B140094C52C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91158C571D753B140094C52C /* AppDelegate.m */; };
 		91158C5B1D753B140094C52C /* BZChatTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91158C5A1D753B140094C52C /* BZChatTemplateViewController.m */; };
 		91158C5E1D753B140094C52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91158C5C1D753B140094C52C /* Main.storyboard */; };
-		91158C601D753B150094C52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91158C5F1D753B150094C52C /* Assets.xcassets */; };
 		91158C631D753B150094C52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91158C611D753B150094C52C /* LaunchScreen.storyboard */; };
 		91158C6E1D753B150094C52C /* ChatTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91158C6D1D753B150094C52C /* ChatTemplateTests.m */; };
 		91158C791D753B150094C52C /* ChatTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91158C781D753B150094C52C /* ChatTemplateUITests.m */; };
@@ -19,7 +18,6 @@
 		91D41CE01D753CE90026C6D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D41CDF1D753CE90026C6D1 /* ViewController.m */; };
 		91D41CE31D753D9A0026C6D1 /* BZChatMessageCellTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D41CE21D753D9A0026C6D1 /* BZChatMessageCellTemplate.m */; };
 		91D41CE51D753E0D0026C6D1 /* BZChatMessageCellTemplate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D41CE41D753E0D0026C6D1 /* BZChatMessageCellTemplate.xib */; };
-		91D41CE71D754CB80026C6D1 /* ChatTemplate.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 91D41CE61D754CB80026C6D1 /* ChatTemplate.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +45,6 @@
 		91158C591D753B140094C52C /* BZChatTemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZChatTemplateViewController.h; sourceTree = "<group>"; };
 		91158C5A1D753B140094C52C /* BZChatTemplateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZChatTemplateViewController.m; sourceTree = "<group>"; };
 		91158C5D1D753B140094C52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91158C5F1D753B150094C52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91158C621D753B150094C52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91158C641D753B150094C52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91158C691D753B150094C52C /* ChatTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +115,6 @@
 				91158C561D753B140094C52C /* AppDelegate.h */,
 				91158C571D753B140094C52C /* AppDelegate.m */,
 				91158C5C1D753B140094C52C /* Main.storyboard */,
-				91158C5F1D753B150094C52C /* Assets.xcassets */,
 				91158C611D753B150094C52C /* LaunchScreen.storyboard */,
 				91158C641D753B150094C52C /* Info.plist */,
 				91158C531D753B140094C52C /* Supporting Files */,
@@ -272,8 +268,6 @@
 			files = (
 				91158C881D753BC20094C52C /* BZChatTemplateViewController.xib in Resources */,
 				91158C631D753B150094C52C /* LaunchScreen.storyboard in Resources */,
-				91D41CE71D754CB80026C6D1 /* ChatTemplate.podspec in Resources */,
-				91158C601D753B150094C52C /* Assets.xcassets in Resources */,
 				91D41CE51D753E0D0026C6D1 /* BZChatMessageCellTemplate.xib in Resources */,
 				91158C5E1D753B140094C52C /* Main.storyboard in Resources */,
 			);
